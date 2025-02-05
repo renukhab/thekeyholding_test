@@ -1,0 +1,43 @@
+name: Deploy Flask App to EC2
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up SSH and Deploy to EC2
+        env:
+          PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
+          HOST: ${{ secrets.EC2_HOST }}
+          USER: ubuntu
+        run: |
+          echo "$PRIVATE_KEY" > private_key.pem
+          chmod 600 private_key.pem
+          ssh -o StrictHostKeyChecking=no -i private_key.pem $USER@$HOST << 'EOF'
+            # Stop any running Flask app
+            pkill -f "flask run" || true
+            
+            # Update instance
+            sudo apt update -y
+            sudo apt install -y python3 python3-pip
+            
+            # Navigate to app directory
+            cd /home/ubuntu/interstellar-api || git clone https://github.com/your-username/your-repo.git /home/ubuntu/interstellar-api
+            cd /home/ubuntu/interstellar-api
+            git pull origin main
+            
+            # Install dependencies
+            pip3 install -r requirements.txt
+            
+            # Run Flask app with nohup
+            nohup flask run --host=0.0.0.0 --port=5000 > flask.log 2>&1 &
+            echo "Flask app restarted"
+          EOF
