@@ -1,0 +1,80 @@
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.35.108:5000
+Press CTRL+C to quit
+103.186.254.231 - - [05/Feb/2025 07:37:00] "GET / HTTP/1.1" 404 -
+103.186.254.231 - - [05/Feb/2025 07:37:00] "GET /favicon.ico HTTP/1.1" 404 -
+103.186.254.231 - - [05/Feb/2025 07:38:45] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06')
+103.186.254.231 - - [05/Feb/2025 07:38:45] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x03ºþ\x8e©±\x12ùDú¨Q" 400 -
+103.186.254.231 - - [05/Feb/2025 07:38:45] code 400, message Bad request version ('0¸\x86')
+103.186.254.231 - - [05/Feb/2025 07:38:45] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x8f\x0fÌ\x94û\x1b\x85¨à\x8b2æË<\x17\x1ce\x1bÞ\x7f¢\x88ÃNî\x85¾;";\x0d7 y¼\x15\x9c\x1d3\x05ºHí\x19xE\x0c×\x06@\x03#3\x0ds»ª\x12\x11\x96\x0d©\x17s\x87\x00 **\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s\x8a\x8a\x00\x00\x00\x12\x00\x00\x003\x04ï\x04í**\x00\x01\x00\x11ì\x04ÀmöÏ\x10Ç]\x1fI\x96ö¹¯¥æ\x994\x1cÁ\x13F:oL;égXlëhk9Á¿ v\x91*\x0bH!%^\x1b{àROï¶É¾a¯Ã\x81X\x8fÖ\x92ºº< x\x03ïëtI\x93ÉT\x82´|U\x1f\x0fØ:v$\x7fpÊ\x93\x84<¢olÃÇJÆ\x11A\x074ú6\x0eÄ\x8aa\x16¯\x84\x07U'\x9a\x8aê\x0bL§+\x04ôÊ\x0cÊÊ§eÛ\x11\x98\x99W¢hIY\x89eH)<Du©\x04h\x8b\x97'bÂG\x98%t\x88Å´4ù\x1c\x03\x07u\\lb\x16\x13²\x9b©\x90ÎPñ8ñ\x94~ãê)íû\x1e°\x92k\x01#» Ü]\x9d ºv£\x06\x13â%\x89\x95`Ø\x98\x03ÿ\x01LDK\x84µù¨\x98Qe°ëÈ\x86\x00Vq\x13\x88A\x15¿\x03¤\x85TÌ\x1b7\x9b\x86?Èbñ\x9asÜ{u(\x008'×/kêQ~\x9b6\x06Õ\x1aÍh\x0bP$\x8aE\x12\x02£ûG\x87V~U\x15¼O«\x13¥LI¬øu(F5âò\x9dØ\x10\x8cUC.\x06´\x94ý\x08!aw\x10Ìa=VÔ¾\x0bhrGéfÚ÷\x93$Å@¼Ä\x91LYJ\x82Á½§Ô8\\»;\x91[¿d\x16­ùQ»ÊË=\x8e\x02®S6\x8c!A?\x80µ\x04à4rüÇ\x8bh1h¤\x92¸ó\x1a¶\x968\x16MË\x7fzx¼hY¼\x9bqA{¤\\BR\x93rü[+Û0!Ë\x17fì¡(Ã9\x09x*As¸\x82\x07\x81×Fblâ§±,T\x84ìÊÖ£¾\x8aL[\x89¥\x87Ó\x97\x80\x84\x93cS1\x84Î\x00h\x9c´¦{l3#\x19H*£sÄu\x18ÍTÃ\x88x"µ2·(tn¸Ú¯a\x89t\x16æXUÐtv5\x1e1\x0bº·\x0cV\x0er¡½\x8cCvóA«±wË\x97:u¹7ÚÉ\x01"±­L\x05x{$¬\x97Úb\x05ø,\x80\x10©\x11µ\x1bµ*ÆÚb\x80÷Zm¨D\x93\x97I\x0d\x94\x15A?Ã\x88\x01ó«\x9aê\x1c1\x992\x07\x00\x16¥ð\x82È\x07\x08À,E\x91º\x1c)l ½Ã>,³\x19mÁµñ\x04j4\x82o]h\x98\x1fFEW5\x03ªxSã\x05X0Id#ÂsH\x18\x13ÂYL¬\x03¦Ó\x08\x88\x83ÁX\x00=g+2\x95-q\x19¯ùY~IaT1aTð\x14àÇÊÜ\x10§9Æ5\x82Él2¬QðÙ\x9f®\x04§\\³·(Aª\x9cQZ{ù3\x00tpÏP\x07\x16\x88\x14L3NtÃEZ<Éø\x13±Æyd\x11ry\x0e\x99q\x08y/Þp*×"\x7fºÁ\x83t²Ê\x13b¯«Ð{ã\\s(ÚK]A\x9fÓ\x9b^£Õ\x81\x12\x99\x9c\x9aìFV\x80T\x1d\x81ÍHsz\x10\x90}\x99[\x86+F\x10ÝÆ4NE\x93\x1d\x97bÆ{\x1dô¸¾ÒùFì\x0bU¹\x98©C$póì¹ Úg\x850¸\x86" 400 -
+103.186.254.231 - - [05/Feb/2025 07:38:45] code 400, message Bad request version ('Ò\x9b\x9cB')
+103.186.254.231 - - [05/Feb/2025 07:38:45] "\x16\x03\x01\x06 \x01\x00\x06\x9c\x03\x038¶\x84nN\x97~Ç Ò\x9b\x9cB" 400 -
+103.186.254.231 - - [05/Feb/2025 07:38:45] code 400, message Bad request version ('\x00\x02\x01\x00\x00+\x00\x07\x06**\x03\x04\x03\x03\x00-\x00\x02\x01\x01\x00\x1b\x00\x03\x02\x00\x02\x00')
+103.186.254.231 - - [05/Feb/2025 07:38:45] "\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x19t¸Dt\x0fÝº\x13-\x0e-\x90I!ÐA¸ 0$\x07\x1d°æ\x0eèÑë\x18Ó! È/\x0c\x1dRô¼¢¼\x10:\x7f¬\x13\x91í1\x14Z\x09\x92³\x11¿ß\x1d'=GHj¸\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sêê\x00\x00\x00#\x00\x00ÿ\x01\x00\x01\x00\x00\x0b\x00\x02\x01\x00\x00+\x00\x07\x06**\x03\x04\x03\x03\x00-\x00\x02\x01\x01\x00\x1b\x00\x03\x02\x00\x02\x00" 400 -
+103.186.254.231 - - [05/Feb/2025 07:39:29] "GET /swagger-ui/ HTTP/1.1" 404 -
+103.186.254.231 - - [05/Feb/2025 07:39:38] "GET /api/swagger-ui/ HTTP/1.1" 404 -
+103.186.254.231 - - [05/Feb/2025 07:40:03] "GET /api/swagger.json HTTP/1.1" 200 -
+103.186.254.231 - - [05/Feb/2025 07:40:25] "GET /swagger-ui/ HTTP/1.1" 404 -
+127.0.0.1 - - [05/Feb/2025 07:41:12] "GET /api/ HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2025 07:41:12] "GET /swaggerui/droid-sans.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2025 07:41:13] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2025 07:41:13] "GET /swaggerui/swagger-ui.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2025 07:41:13] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2025 07:41:15] "GET /api/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2025 07:41:15] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
+103.186.254.231 - - [05/Feb/2025 07:41:18] "GET /api/swagger.json HTTP/1.1" 200 -
+103.186.254.231 - - [05/Feb/2025 07:41:25] "GET /api/ HTTP/1.1" 200 -
+103.186.254.231 - - [05/Feb/2025 07:41:25] "GET /swaggerui/droid-sans.css HTTP/1.1" 200 -
+103.186.254.231 - - [05/Feb/2025 07:41:25] "GET /swaggerui/swagger-ui.css HTTP/1.1" 200 -
+103.186.254.231 - - [05/Feb/2025 07:41:26] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 200 -
+103.186.254.231 - - [05/Feb/2025 07:41:26] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+103.186.254.231 - - [05/Feb/2025 07:41:27] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
+103.186.254.231 - - [05/Feb/2025 07:41:27] "GET /api/swagger.json HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2025 07:41:28] "GET /api/ HTTP/1.1" 200 -
+127.0.0.1 - - [05/Feb/2025 07:41:29] "GET /swaggerui/droid-sans.css HTTP/1.1" 304 -
+127.0.0.1 - - [05/Feb/2025 07:41:29] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Feb/2025 07:41:29] "GET /swaggerui/swagger-ui.css HTTP/1.1" 304 -
+127.0.0.1 - - [05/Feb/2025 07:41:29] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 304 -
+127.0.0.1 - - [05/Feb/2025 07:41:30] "GET /api/swagger.json HTTP/1.1" 200 -
+103.186.254.231 - - [05/Feb/2025 07:41:51] "GET /api/ HTTP/1.1" 200 -
+103.186.254.231 - - [05/Feb/2025 07:41:51] "GET /swaggerui/droid-sans.css HTTP/1.1" 304 -
+103.186.254.231 - - [05/Feb/2025 07:41:52] "GET /swaggerui/swagger-ui.css HTTP/1.1" 304 -
+103.186.254.231 - - [05/Feb/2025 07:41:52] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+103.186.254.231 - - [05/Feb/2025 07:41:52] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 304 -
+103.186.254.231 - - [05/Feb/2025 07:41:52] "GET /api/swagger.json HTTP/1.1" 200 -
+103.186.254.231 - - [05/Feb/2025 07:42:01] "GET /api/api/gates HTTP/1.1" 200 -
+209.38.120.47 - - [05/Feb/2025 09:02:48] code 400, message Bad request version ('À\x14À')
+209.38.120.47 - - [05/Feb/2025 09:02:48] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03v\x814\x08x¾¨d\x8d\x06Â¡íï\x93ÁmIÆ^ ¦na\x19\x18ç|\x97-7ë\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" 400 -
+209.38.120.47 - - [05/Feb/2025 09:02:48] code 400, message Bad request version ('À\x14À')
+209.38.120.47 - - [05/Feb/2025 09:02:48] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03û5\x9a¡²ò&@÷\x81¨2¡öû\x07<´\x02\x9fÑp8TrÄ*\x0eâ\x0cò[\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" 400 -
+209.38.120.47 - - [05/Feb/2025 09:02:48] "GET / HTTP/1.1" 404 -
+123.58.215.102 - - [05/Feb/2025 10:06:00] "GET / HTTP/1.1" 404 -
+123.58.215.102 - - [05/Feb/2025 10:06:01] code 400, message Bad request version ('À\x13À')
+123.58.215.102 - - [05/Feb/2025 10:06:01] "\x16\x03\x01\x00ò\x01\x00\x00î\x03\x034V~9ÑÖ\x92\x9aÇó\x15þ\x09_\x89`ü\x0b\x1az\x9b !Ø²\x87yJ\x0d-=¸ óO©õêLæàûQÄ\x08åtM{H(r0W\x12Kµ\x8cEK\x8cM\x9fçu\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À" 400 -
+123.58.215.102 - - [05/Feb/2025 10:06:02] code 400, message Bad HTTP/0.9 request type ('t3')
+123.58.215.102 - - [05/Feb/2025 10:06:02] "t3 12.1.2" 400 -
+152.32.211.69 - - [05/Feb/2025 10:06:33] "GET / HTTP/1.1" 404 -
+152.32.211.69 - - [05/Feb/2025 10:06:33] "GET /favicon.ico HTTP/1.1" 404 -
+152.32.211.69 - - [05/Feb/2025 10:06:34] "GET /sitemap.xml HTTP/1.1" 404 -
+152.32.211.69 - - [05/Feb/2025 10:06:34] "GET /robots.txt HTTP/1.1" 404 -
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.35.108:5000
+Press CTRL+C to quit
+103.186.254.231 - - [05/Feb/2025 12:51:50] "GET /api/ HTTP/1.1" 200 -
+103.186.254.231 - - [05/Feb/2025 12:51:50] "GET /swaggerui/droid-sans.css HTTP/1.1" 304 -
+103.186.254.231 - - [05/Feb/2025 12:51:50] "GET /swaggerui/swagger-ui.css HTTP/1.1" 304 -
+103.186.254.231 - - [05/Feb/2025 12:51:50] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 304 -
+103.186.254.231 - - [05/Feb/2025 12:51:50] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+103.186.254.231 - - [05/Feb/2025 12:51:51] "GET /api/swagger.json HTTP/1.1" 200 -
+103.186.254.231 - - [05/Feb/2025 12:51:56] "GET /api/api/gates HTTP/1.1" 200 -
+103.186.254.231 - - [05/Feb/2025 12:52:17] "GET /api/api/gates/SOL HTTP/1.1" 200 -
+103.186.254.231 - - [05/Feb/2025 13:29:07] "GET /api/api/gates HTTP/1.1" 200 -
+103.186.254.231 - - [05/Feb/2025 13:29:16] "GET /api/api/gates HTTP/1.1" 200 -
+103.186.254.231 - - [05/Feb/2025 13:29:18] "GET /api/api/gates HTTP/1.1" 200 -
+103.186.254.231 - - [05/Feb/2025 13:36:33] "GET /api/api/gates HTTP/1.1" 200 -
